@@ -1,6 +1,9 @@
 import React from "react";
 import "./Footerestilos.css";
-
+import fbIcono from "./shared-imagenes/fb-icono.png";
+import instagramIcono from "./shared-imagenes/instagram-icono.png";
+import twitterIcono from "./shared-imagenes/twitter-icono.png";
+import logoIcono from "./shared-imagenes/logo-icono.png"
 const Frame = () => {
     return (
         <div className="framev2">
@@ -9,9 +12,9 @@ const Frame = () => {
         <div className="div">@animes_online</div>
         <div className="text-wrapper-2">@animes_online</div>
         <div className="text-wrapper-3">@animes_online</div>
-        <img className="vector" alt="Vector" src="image.svg" />
-        <img className="img" alt="Vector" src="vector-2.svg" />
-        <img className="vector-2" alt="Vector" src="vector-3.svg" />
+        <img className="vector" alt="Vector" src={instagramIcono} />
+        <img className="img" alt="Vector" src= {twitterIcono}/>
+        <img className="vector-2" alt="Vector" src= {fbIcono}/>
         </div>
         <div className="menu-inferior">
         <div className="text-wrapper">Inicio</div>
@@ -43,7 +46,7 @@ const Frame = () => {
         <div className="text-wrapper-9">Animes Online.</div>
         <p className="text-wrapper-10">Bienvenido al mejor sitio web de anime.</p>
         </div>
-        <img className="vector-3" alt="Vector" src="vector.svg" />
+        <img className="vector-3" alt="Vector" src={logoIcono} />
         </div>
         </div>
         </div>
