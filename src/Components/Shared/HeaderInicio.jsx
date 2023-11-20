@@ -2,6 +2,7 @@ import React from "react";
 import "./Headerestilos.css";
 import logoicono from "./shared-imagenes/logo-icono.png"
 import searchIcono from "./shared-imagenes/search-icono.png"
+import { Link, useNavigate } from 'react-router-dom';
 
  const Box = () => {
     return (
@@ -20,8 +21,14 @@ import searchIcono from "./shared-imagenes/search-icono.png"
             <img className="search-icon" alt="Search Icon" src={searchIcono} />
         </div>
         <div className="auth-section">
+            
+        <Link to="/login">
             <button className="login-button">Iniciar sesión</button>
+            </Link>
+
+            <Link to="/registro">
             <button className="register-button">Registrarse</button>
+            </Link>
         </div>
     </header>
     );

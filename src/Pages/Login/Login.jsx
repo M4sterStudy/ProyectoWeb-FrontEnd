@@ -5,6 +5,7 @@ import { useForm } from "../../hooks/useForm"; // Asegúrate de importar el hook
 import "./Css_Styles/Login_Styles.css";
 import Paisaje from "./Imagenes/Rectangle-1.png";
 
+
 const Login = () => {
   const [emailOrUsername, setEmailOrUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -59,12 +60,14 @@ const Login = () => {
           <div className="text-wrapper-5">Crea una cuenta</div>
         </Link>
 
+        <Link to="/inicio">
         <button className="btn-iniciar-sesion" onClick={handleLogin}>
           <div className="overlap-group-2">
             <span className="text-wrapper-7">Iniciar sesión</span>
             <div className="rectangle-2"></div>
           </div>
         </button>
+        </Link>
       </div>
     </div>
   );

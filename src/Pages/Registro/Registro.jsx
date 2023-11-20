@@ -12,7 +12,7 @@ const Registro = () => {
 
   const dispatch = useDispatch()
 
-  const {usuario,email,password, onInputChange,formState} = useForm({
+  const {email,password,usuario, onInputChange,formState} = useForm({
       usuario: '',
       email: '',
       password: ''
