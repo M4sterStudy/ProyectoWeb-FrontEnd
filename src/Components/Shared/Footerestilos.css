@@ -1,0 +1,268 @@
+.framev2 {
+    background-color: #000000;
+    height: 264px;
+    position: relative;
+}
+
+.framev2 .social-midia {
+    height: 150px;
+    left: 1095px;
+    position: absolute;
+    top: 44px;
+    width: 192px;
+}
+
+.framev2 .text-wrapper {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 1.2px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+
+.framev2 .div {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 40px;
+    letter-spacing: 0.9px;
+    line-height: normal;
+    position: absolute;
+    top: 43px;
+    white-space: nowrap;
+}
+
+.framev2 .text-wrapper-2 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 40px;
+    letter-spacing: 0.9px;
+    line-height: normal;
+    position: absolute;
+    top: 85px;
+    white-space: nowrap;
+}
+
+.framev2 .text-wrapper-3 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 40px;
+    letter-spacing: 0.9px;
+    line-height: normal;
+    position: absolute;
+    top: 127px;
+    white-space: nowrap;
+}
+
+.framev2 .vector {
+    height: 25px;
+    left: 0;
+    position: absolute;
+    top: 44px;
+    width: 25px;
+}
+
+.framev2 .img {
+    height: 23px;
+    left: 0;
+    position: absolute;
+    top: 127px;
+    width: 28px;
+}
+
+.framev2 .vector-2 {
+    height: 25px;
+    left: 0;
+    position: absolute;
+    top: 85px;
+    width: 25px;
+}
+
+.framev2 .menu-inferior {
+    height: 97px;
+    left: 497px;
+    position: absolute;
+    top: 44px;
+    width: 399px;
+}
+
+.framev2 .text-wrapper-4 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 129px;
+    letter-spacing: 1.2px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+
+.framev2 .text-wrapper-5 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 251px;
+    letter-spacing: 1.2px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+
+.framev2 .text-wrapper-6 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 1.2px;
+    line-height: normal;
+    position: absolute;
+    top: 69px;
+    white-space: nowrap;
+}
+
+.framev2 .text-wrapper-7 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 251px;
+    letter-spacing: 1.2px;
+    line-height: normal;
+    position: absolute;
+    top: 69px;
+    white-space: nowrap;
+}
+
+.framev2 .group {
+    height: 42px;
+    left: 0;
+    position: absolute;
+    top: 210px;
+    width: 1442px;
+}
+
+.framev2 .p {
+    color: #fbfbfb;
+    font-family: "Aubrey-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+    width: 1378px;
+}
+
+.framev2 .line {
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: -2px;
+    width: 1440px;
+}
+
+.framev2 .group-2 {
+    height: 50px;
+    left: 38px;
+    position: absolute;
+    top: 128px;
+    width: 370px;
+}
+
+.framev2 .atenci-n-este-sitio {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.6px;
+    line-height: normal;
+    position: absolute;
+    top: 22px;
+}
+
+.framev2 .text-wrapper-8 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.7px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+
+.framev2 .logo {
+    height: 65px;
+    left: 38px;
+    position: absolute;
+    top: 35px;
+    width: 290px;
+}
+
+.framev2 .overlap {
+    height: 65px;
+    position: relative;
+    width: 286px;
+}
+
+.framev2 .overlap-group {
+    height: 63px;
+    left: 5px;
+    position: absolute;
+    top: 2px;
+    width: 281px;
+}
+
+.framev2 .text-wrapper-9 {
+    color: #fbfbfb;
+    font-family: "Aubrey-Regular", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    left: 39px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+
+.framev2 .text-wrapper-10 {
+    color: #fbfbfb;
+    font-family: "Aubrey-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.9px;
+    line-height: normal;
+    position: absolute;
+    top: 44px;
+    white-space: nowrap;
+}
+
+.framev2 .vector-3 {
+    height: 46px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 35px;
+}
+

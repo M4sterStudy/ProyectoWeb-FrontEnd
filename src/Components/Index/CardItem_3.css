@@ -1,0 +1,50 @@
+.box3 {
+    height: 457px;
+    width: 237px;
+}
+
+.box3 .group {
+    height: 457px;
+    left: 935px;
+    position: relative;
+    top: -850px;
+    width: 239px;
+}
+
+.box3 .overlap-group {
+    height: 457px;
+    position: relative;
+    width: 237px;
+}
+
+.box3 .rectangle {
+    height: 455px;
+    left: 10px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 223px;
+}
+
+.box3 .div {
+    background: linear-gradient(180deg, rgba(7.44, 7.44, 7.44, 0) 0%, rgb(7.44, 7.44, 7.44) 100%);
+    border-radius: 0px 0px 20px 20px;
+    height: 107px;
+    left: 7px;
+    position: absolute;
+    top: 350px;
+    width: 230px;
+}
+
+.box3 .hunter-x-hunter {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 1.2px;
+    line-height: normal;
+    position: absolute;
+    top: 396px;
+    width: 225px;
+}

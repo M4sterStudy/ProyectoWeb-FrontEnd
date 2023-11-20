@@ -1,0 +1,108 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 80px; 
+    padding: 0 20px; 
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    margin-right: 10px;
+}
+
+.navigation .nav-item {
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px; 
+}
+
+.search-section {
+    display: flex;
+    align-items: center;
+    background-color: #302D2D;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.search-input {
+    order: 1; /* Esto asegura que el input esté primero */
+}
+
+.search-icon {
+    order: 2; /* Esto asegura que el ícono esté después del input */
+}
+
+.search-input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-right: 5px;
+    height: 22px; /* Ajusta la altura del input */
+    padding: 5px 10px; /* Añade padding para dar más espacio interno */
+    font-size: 16px; /* Aumenta el tamaño de la fuente si lo deseas */
+    border-radius: 5px; /* Añade curvatura a las esquinas */
+}
+
+.search-input::placeholder {
+    color: white;
+}
+
+.search-icon {
+    cursor: pointer;
+}
+
+.auth-section {
+    display: flex;
+    align-items: center;
+}
+
+.login-button, .register-button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px;
+}
+
+.login-button {
+    background-color: black;
+    border: 2px solid #BD00FF;
+    color: white;
+}
+
+.register-button {
+    background-color: #BD00FF;
+    color: white;
+}
+
+.login-button:hover {
+    background-color: #BD00FF;
+    color: black;
+}
+
+.register-button:hover {
+    background-color: black;
+    color: #BD00FF;
+}
+
+.navigation {
+    display: flex; /* Esto hará que los elementos hijos se alineen horizontalmente */
+    align-items: center;
+}
+
+.navigation .nav-item {
+    margin: 0 15px; /* Añade márgenes a los lados para separar los elementos */
+    cursor: pointer;
+}
+

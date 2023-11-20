@@ -1,0 +1,51 @@
+.box {
+    height: 717px;
+    width: 608px;
+    transform: scale(0.8);
+}
+
+.box .group {
+    height: 717px;
+    left: 0cap;
+    position: relative;
+    top: 0;
+    width: 610px;
+}
+
+.box .overlap-group {
+    height: 717px;
+    position: relative;
+    width: 608px;
+}
+
+.box .rectangle {
+    height: 716px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 608px;
+}
+
+.box .div {
+    background: linear-gradient(180deg, rgba(7.44, 7.44, 7.44, 0) 0%, rgb(7.44, 7.44, 7.44) 100%);
+    border-radius: 0px 0px 20px 20px;
+    height: 156px;
+    left: 0;
+    position: absolute;
+    top: 561px;
+    width: 608px;
+}
+
+.box .shingeki-no-kyojin {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 86px;
+    letter-spacing: 1.2px;
+    line-height: normal;
+    position: absolute;
+    top: 657px;
+    white-space: nowrap;
+}
