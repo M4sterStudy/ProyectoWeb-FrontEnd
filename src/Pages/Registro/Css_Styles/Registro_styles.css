@@ -25,6 +25,16 @@
     top: 0;
     width: 828px;
     }
+
+    .registrase .login-button {
+        background-color: black;
+        border: 2px solid #BD00FF;
+        position: relative;
+        color: white;
+        top: 5%;
+        left: 30%;
+    }
+
     .registrase .text-wrapper {
     color: #fbfbfb;
     font-family: "Roboto-Medium", Helvetica;

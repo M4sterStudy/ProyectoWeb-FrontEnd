@@ -4,6 +4,7 @@ import { verificarCampos } from '../../Helpers/generalFunctions';
 import RegistroIMG from './Imagenes/RegistroIMG.png';
 import { useDispatch } from 'react-redux';
 import { registerAuth } from '../store/slices/auth/Thunks';
+import { Link } from 'react-router-dom';
 
 import './Css_Styles/Registro_styles.css';
 
@@ -61,9 +62,17 @@ const Registro = () => {
 
   return (
     <div className="registrase">
+
+        <Link to="/login">
+        <button className="login-button">Regresar</button>
+        </Link>
+        
       <div className="container-registro-wrapper">
         <div className="container-registro">
           <img className="rectangle" alt="Rectangle" src={RegistroIMG} />
+
+
+
           <div className="text-wrapper">Registrarse</div>
 
           <div className="overlap">
