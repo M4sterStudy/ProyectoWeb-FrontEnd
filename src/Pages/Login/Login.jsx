@@ -1,24 +1,44 @@
 import React, { useState } from 'react';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 import { Link, useNavigate } from 'react-router-dom';
-import { useForm } from "../../hooks/useForm"; // Asegúrate de importar el hook useForm
+import { useDispatch } from 'react-redux';
+import { loginAuth } from '../store/slices/auth/Thunks';
+import { useForm } from "../../hooks/useForm"; 
 import "./Css_Styles/Login_Styles.css";
 import Paisaje from "./Imagenes/Rectangle-1.png";
 
-
 const Login = () => {
+  const dispatch = useDispatch();
   const [emailOrUsername, setEmailOrUsername] = useState('');
   const [password, setPassword] = useState('');
-  const { handleChange } = useForm(); // Utiliza el hook useForm para obtener handleChange
+  const { handleChange } = useForm(); 
   const navigate = useNavigate();
 
   const handleLogin = async () => {
     try {
+      // Validaciones
+      if (!emailOrUsername || !password) {
+        alert('Por favor, complete todos los campos.');
+        return;
+      }
+
       const auth = getAuth();
+      // Lógica de inicio de sesión con Firebase
       await signInWithEmailAndPassword(auth, emailOrUsername, password);
+      
+      // Lógica para iniciar sesión con Redux
+      await dispatch(loginAuth(emailOrUsername, password));
+
+      // Redirige a la página de inicio solo si el inicio de sesión es exitoso
       navigate('/Inicio');
     } catch (error) {
-      console.error('Error al iniciar sesión:', error.message);
+      // Maneja los errores de inicio de sesión
+      if (error.code === 'auth/user-not-found' || error.code === 'auth/wrong-password') {
+        alert('Credenciales inválidas. Por favor, verifica tu correo y contraseña.');
+      } else {
+        // Maneja otros errores
+        alert('Error en el inicio de sesión. Por favor, intenta nuevamente.');
+      }
     }
   };
 
@@ -34,12 +54,12 @@ const Login = () => {
             type="text"
             id="username"
             name="username"
-            placeholder="    User34"
+            placeholder="    User34@ejemplo.com"
             value={emailOrUsername}
             onChange={(e) => { handleChange(e); setEmailOrUsername(e.target.value); }}
           />
         </div>
-        <p className="p">Nombre de usuario o email</p>
+        <p className="p">ingrese su email</p>
 
         <div className="text-wrapper-3">Contraseña</div>
 
@@ -60,14 +80,13 @@ const Login = () => {
           <div className="text-wrapper-5">Crea una cuenta</div>
         </Link>
 
-        <Link to="/inicio">
+        {/* Eliminamos el Link a "/inicio" y movemos el botón dentro del formulario */}
         <button className="btn-iniciar-sesion" onClick={handleLogin}>
           <div className="overlap-group-2">
             <span className="text-wrapper-7">Iniciar sesión</span>
             <div className="rectangle-2"></div>
           </div>
         </button>
-        </Link>
       </div>
     </div>
   );

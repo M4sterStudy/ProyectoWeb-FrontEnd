@@ -17,7 +17,7 @@ export const Login2 = () => {
 
     // Validaciones
     if (!email || !password) {
-      setMessage('Por favor, complete todos los campos.');
+      alert('Por favor, complete todos los campos.');
       return;
     }
 
@@ -26,16 +26,16 @@ export const Login2 = () => {
       await dispatch(loginAuth(email, password)); // Usa la función de inicio de sesión
 
       // Muestra el mensaje de éxito
-      setMessage('Inicio de sesión exitoso.');
+      alert('Inicio de sesión exitoso.');
 
       // Puedes redirigir a otra página aquí si es necesario
     } catch (error) {
       // Maneja los errores de inicio de sesión
       if (error.code === 'auth/user-not-found' || error.code === 'auth/wrong-password') {
-        setMessage('Credenciales inválidas. Por favor, verifica tu correo y contraseña.');
+        alert('Credenciales inválidas. Por favor, verifica tu correo y contraseña.');
       } else {
         // Maneja otros errores
-        setMessage('Error en el inicio de sesión. Por favor, intenta nuevamente.');
+        alert('Error en el inicio de sesión. Por favor, intenta nuevamente.');
       }
     }
   };
