@@ -2,4 +2,9 @@
   command = "npm run build"
   publish = "build"
   environment = { CI = "false" }
-  
+
+
+  [[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
