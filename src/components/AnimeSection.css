@@ -1,0 +1,327 @@
+.destacados1 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-17xl);
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  font-family: inherit;
+}
+.rectangle-div {
+  position: absolute;
+  top: 561px;
+  left: 0;
+  border-radius: 0 0 var(--br-xl) var(--br-xl);
+  background: linear-gradient(180deg, rgba(7, 7, 7, 0), #070707);
+  width: 608px;
+  height: 156px;
+}
+.shingeki-no-kyojin {
+  position: absolute;
+  top: 657px;
+  left: 86px;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.05em;
+  font-family: var(--font-roboto);
+  color: var(--color-gray-100);
+  text-align: left;
+}
+.rectangle-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 56px;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 608px;
+  height: 716px;
+  background-image: url(/public/frame-2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.frame-child1 {
+  position: absolute;
+  top: 261px;
+  left: 0;
+  border-radius: 0 0 var(--br-xl) var(--br-xl);
+  background: linear-gradient(180deg, rgba(7, 7, 7, 0), #070707);
+  width: 365px;
+  height: 107px;
+}
+.kimetsu-no-yaiba {
+  position: absolute;
+  top: 315px;
+  left: 83px;
+  letter-spacing: 0.05em;
+}
+.rectangle-container,
+.rectangle-icon {
+  position: absolute;
+  border-radius: var(--br-xl);
+  width: 365px;
+}
+.rectangle-container {
+  top: 56px;
+  left: 628px;
+  height: 368px;
+  background-image: url(/public/frame-3@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.rectangle-icon {
+  top: 0;
+  left: 10px;
+  height: 330px;
+  object-fit: cover;
+}
+.frame-child2 {
+  position: absolute;
+  top: 225px;
+  left: 0;
+  border-radius: 0 0 var(--br-xl) var(--br-xl);
+  background: linear-gradient(180deg, rgba(7, 7, 7, 0), #070707);
+  width: 375px;
+  height: 107px;
+}
+.black-clover {
+  position: absolute;
+  top: 271px;
+  left: 115px;
+  letter-spacing: 0.05em;
+}
+.frame-child3,
+.frame-div {
+  position: absolute;
+  top: 442px;
+  left: 618px;
+  width: 375px;
+  height: 332px;
+}
+.frame-child3 {
+  top: 0;
+  left: 10px;
+  border-radius: var(--br-xl);
+  width: 223px;
+  height: 455px;
+  object-fit: cover;
+}
+.frame-child4 {
+  position: absolute;
+  top: 350px;
+  left: 7px;
+  border-radius: 0 0 var(--br-xl) var(--br-xl);
+  background: linear-gradient(180deg, rgba(7, 7, 7, 0), #070707);
+  width: 230px;
+  height: 107px;
+}
+.hunter-x-hunter {
+  position: absolute;
+  top: 396px;
+  left: 0;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  width: 225px;
+}
+.frame-child5,
+.vector-parent {
+  position: absolute;
+  top: 317px;
+  left: 1003px;
+  width: 237px;
+  height: 457px;
+}
+.frame-child5 {
+  top: 0;
+  left: 3px;
+  border-radius: var(--br-xl);
+  width: 223px;
+  height: 243px;
+  object-fit: cover;
+}
+.frame-child6 {
+  position: absolute;
+  top: 136px;
+  left: 0;
+  border-radius: 0 0 var(--br-xl) var(--br-xl);
+  background: linear-gradient(180deg, rgba(7, 7, 7, 0), #070707);
+  width: 230px;
+  height: 107px;
+}
+.one-punch-man {
+  position: absolute;
+  top: 189px;
+  left: 23px;
+  letter-spacing: 0.05em;
+}
+.rectangle-parent1 {
+  position: absolute;
+  top: 56px;
+  left: 1010px;
+  width: 230px;
+  height: 243px;
+}
+.animes-destacados {
+  position: absolute;
+  top: 147px;
+  left: 64px;
+  width: 1240px;
+  height: 774px;
+}
+.animes-online4 {
+  margin: 0;
+  position: absolute;
+  top: 2px;
+  left: 44px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.logo1,
+.vector-icon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.vector-icon3 {
+  height: 87.5%;
+  width: 12.28%;
+  right: 87.72%;
+  bottom: 12.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.logo1 {
+  width: 285px;
+  height: 52px;
+}
+.categorias1,
+.inicio2,
+.lista-animes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.05em;
+}
+.categorias1,
+.lista-animes {
+  left: 77px;
+  cursor: pointer;
+}
+.categorias1 {
+  left: 235px;
+}
+.inicio-parent {
+  position: absolute;
+  top: 14px;
+  left: 412px;
+  width: 369px;
+  height: 28px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-roboto);
+}
+.buscar,
+.inicio-sesion-child {
+  position: absolute;
+  border-radius: var(--br-8xs);
+  height: 42px;
+}
+.buscar {
+  border: 0;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-sm);
+  background-color: var(--color-darkslategray-100);
+  top: 7px;
+  left: 814px;
+  width: 243px;
+}
+.inicio-sesion-child {
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray-200);
+  border: 2px solid var(--color-darkviolet);
+  box-sizing: border-box;
+  width: 127px;
+  cursor: pointer;
+}
+.iniciar-sesin {
+  position: absolute;
+  top: 11px;
+  left: 5px;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.05em;
+  font-family: var(--font-roboto);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  width: 121.8px;
+}
+.inicio-sesion {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 7px;
+  left: 1228px;
+  width: 127px;
+  height: 42px;
+}
+.registrarse1 {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.05em;
+  font-family: var(--font-roboto);
+  color: var(--color-gray-100);
+  text-align: left;
+}
+.registrarse {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-darkviolet);
+  position: absolute;
+  top: 7px;
+  left: 1083px;
+  border-radius: var(--br-8xs);
+  width: 123px;
+  height: 42px;
+}
+.toppage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1355px;
+  height: 52px;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-aubrey);
+}
+.frame-child7 {
+  position: absolute;
+  top: 40px;
+  left: 413px;
+  background-color: var(--color-darkviolet);
+  width: 63px;
+  height: 2px;
+  display: none;
+}
+.animes-destacados-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1355px;
+  height: 921px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-roboto);
+}

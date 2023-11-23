@@ -1,0 +1,213 @@
+.registrase {
+    background-color: #070707;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    }
+    .registrase .container-registro-wrapper {
+    background-color: #070707;
+    height: 1024px;
+    overflow: hidden;
+    width: 1440px;
+    }
+    .registrase .container-registro {
+    height: 1024px;
+    left: 24px;
+    position: relative;
+    width: 1434px;
+    }
+    .registrase .rectangle {
+    height: 1024px;
+    left: 588px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 828px;
+    }
+    .registrase .text-wrapper {
+    color: #fbfbfb;
+    font-family: "Roboto-Medium", Helvetica;
+    font-size: 64px;
+    font-weight: 500;
+    left: 94px;
+    letter-spacing: 3.2px;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+    white-space: nowrap;
+    }
+    .registrase .overlap {
+    background-color: #2f2c2c;
+    border-radius: 5px;
+    height: 87px;
+    left: 18px;
+    position: absolute;
+    top: 235px;
+    width: 510px;
+    }
+    .registrase .div {
+    color: #c4c4c4;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    position: absolute;
+    top: 26px;
+    white-space: nowrap;
+    }
+    .registrase .overlap-group {
+    background-color: #2f2c2c;
+    border-radius: 5px;
+    height: 87px;
+    left: 18px;
+    position: absolute;
+    top: 400px;
+    width: 510px;
+    }
+    .registrase .text-wrapper-2 {
+    color: #c4c4c4;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    position: absolute;
+    top: 30px;
+    white-space: nowrap;
+    }
+    .registrase .text-wrapper-3 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 18px;
+    letter-spacing: 1.2px;
+    line-height: normal;
+    position: absolute;
+    top: 197px;
+    white-space: nowrap;
+    }
+    .registrase .text-wrapper-4 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 18px;
+    letter-spacing: 1.2px;
+    line-height: normal;
+    position: absolute;
+    top: 357px;
+    white-space: nowrap;
+    }
+    .registrase .text-wrapper-5 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 19px;
+    letter-spacing: 1.2px;
+    line-height: normal;
+    position: absolute;
+    top: 536px;
+    white-space: nowrap;
+    }
+    .registrase .div-wrapper {
+    background-color: #2f2c2c;
+    border-radius: 5px;
+    height: 87px;
+    left: 18px;
+    position: absolute;
+    top: 571px;
+    width: 510px;
+    }
+    .registrase .text-wrapper-6 {
+    color: #c4c4c4;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    position: absolute;
+    top: 32px;
+    white-space: nowrap;
+    }
+    .registrase .btn-registrarse {
+    height: 87px;
+    left: 18px;
+    position: absolute;
+    top: 881px;
+    width: 503px;
+    }
+    .registrase .overlap-group-2 {
+    border-radius: 5px;
+    height: 95px;
+    left: -4px;
+    position: relative;
+    top: -4px;
+    width: 509px;
+    }
+    .registrase .text-wrapper-7 {
+    color: #c4c4c4;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 171px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    position: absolute;
+    top: 30px;
+    white-space: nowrap;
+    }
+    .registrase .rectangle-2 {
+    border: 4px solid;
+    border-color: #bc00ff;
+    border-radius: 5px;
+    height: 95px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 509px;
+    }
+    .registrase .text-wrapper-8 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 19px;
+    letter-spacing: 1.2px;
+    line-height: normal;
+    position: absolute;
+    top: 693px;
+    white-space: nowrap;
+    }
+    .registrase .overlap-2 {
+    background-color: #2f2c2c;
+    border-radius: 5px;
+    height: 87px;
+    left: 18px;
+    position: absolute;
+    top: 726px;
+    width: 510px;
+    }
+    .registrase .text-wrapper-9 {
+    color: #c4c4c4;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    position: absolute;
+    top: 34px;
+    white-space: nowrap;
+    }
+    .registrase .boton-regresar-de-flecha {
+    left: 0 !important;
+    position: absolute !important;
+    top: 32px !important;
+    }

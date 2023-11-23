@@ -1,0 +1,345 @@
+.frame {
+    position: relative;
+    top: -600px;
+}
+
+.frame .episodios-nuevos {
+    height: 1942px;
+    position: relative;
+    width: 1262px;
+}
+
+.frame .ver-mais {
+    height: 72px;
+    left: 497px;
+    position: absolute;
+    top: 1870px;
+    width: 266px;
+}
+
+.frame .overlap-group {
+    border: 3px solid;
+    border-color: #bc00ff;
+    border-radius: 5px;
+    height: 78px;
+    left: -3px;
+    position: relative;
+    top: -3px;
+    width: 270px;
+}
+
+.frame .text-wrapper {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 61px;
+    letter-spacing: 1.8px;
+    line-height: normal;
+    position: absolute;
+    top: 15px;
+    white-space: nowrap;
+}
+
+.frame .group {
+    height: 419px;
+    left: 0;
+    position: absolute;
+    top: 80px;
+    width: 631px;
+}
+
+.frame .overlap {
+    height: 419px;
+    position: relative;
+    width: 629px;
+}
+
+.frame .rectangle {
+    height: 418px;
+    left: 11px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 605px;
+}
+
+.frame .div {
+    background: linear-gradient(180deg, rgba(7.44, 7.44, 7.44, 0) 0%, rgb(7.44, 7.44, 7.44) 100%);
+    border-radius: 0px 0px 20px 20px;
+    height: 160px;
+    left: 0;
+    position: absolute;
+    top: 259px;
+    width: 629px;
+}
+
+.frame .p {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 28px;
+    letter-spacing: 1px;
+    line-height: normal;
+    position: absolute;
+    top: 322px;
+    white-space: nowrap;
+}
+
+.frame .hd-icon {
+    height: 45px;
+    left: 31px;
+    position: absolute;
+    top: 31px;
+    width: 90px;
+}
+
+.frame .div-wrapper {
+    background-color: #bc00ff;
+    border-radius: 5px;
+    height: 45px;
+    position: relative;
+    width: 88px;
+}
+
+.frame .text-wrapper-2 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 27px;
+    letter-spacing: 1.2px;
+    line-height: normal;
+    position: absolute;
+    top: 9px;
+    white-space: nowrap;
+}
+
+.frame .overlap-wrapper {
+    height: 45px;
+    left: 406px;
+    position: absolute;
+    top: 31px;
+    width: 195px;
+}
+
+.frame .overlap-2 {
+    background-color: #bc00ff;
+    border-radius: 5px;
+    height: 45px;
+    position: relative;
+    width: 193px;
+}
+
+.frame .text-wrapper-3 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 30px;
+    letter-spacing: 1.2px;
+    line-height: normal;
+    position: absolute;
+    top: 9px;
+    width: 158px;
+}
+
+.frame .overlap-group-wrapper {
+    height: 419px;
+    left: 631px;
+    position: absolute;
+    top: 80px;
+    width: 631px;
+}
+
+.frame .cardfight-vanguard {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 21px;
+    letter-spacing: 1px;
+    line-height: normal;
+    position: absolute;
+    top: 322px;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-4 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 30px;
+    letter-spacing: 1.2px;
+    line-height: normal;
+    position: absolute;
+    top: 9px;
+    width: 146px;
+}
+
+.frame .group-2 {
+    height: 419px;
+    left: 0;
+    position: absolute;
+    top: 520px;
+    width: 631px;
+}
+
+.frame .kumo-desu-ga-nani-ka {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 25px;
+    letter-spacing: 1px;
+    line-height: normal;
+    position: absolute;
+    top: 322px;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-5 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 47px;
+    letter-spacing: 1.2px;
+    line-height: normal;
+    position: absolute;
+    top: 9px;
+    width: 99px;
+}
+
+.frame .group-3 {
+    height: 419px;
+    left: 631px;
+    position: absolute;
+    top: 520px;
+    width: 631px;
+}
+
+.frame .text-wrapper-6 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 31px;
+    letter-spacing: 1px;
+    line-height: normal;
+    position: absolute;
+    top: 322px;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-7 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 48px;
+    letter-spacing: 1.2px;
+    line-height: normal;
+    position: absolute;
+    top: 9px;
+    width: 97px;
+}
+
+.frame .group-4 {
+    height: 419px;
+    left: 0;
+    position: absolute;
+    top: 960px;
+    width: 631px;
+}
+
+.frame .text-wrapper-8 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 30px;
+    letter-spacing: 1px;
+    line-height: normal;
+    position: absolute;
+    top: 322px;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-9 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 30px;
+    letter-spacing: 1.2px;
+    line-height: normal;
+    position: absolute;
+    top: 9px;
+    width: 163px;
+}
+
+.frame .group-5 {
+    height: 419px;
+    left: 631px;
+    position: absolute;
+    top: 960px;
+    width: 631px;
+}
+
+.frame .group-6 {
+    height: 419px;
+    left: 0;
+    position: absolute;
+    top: 1400px;
+    width: 631px;
+}
+
+.frame .text-wrapper-10 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 30px;
+    letter-spacing: 1.2px;
+    line-height: normal;
+    position: absolute;
+    top: 9px;
+    width: 149px;
+}
+
+.frame .group-7 {
+    height: 419px;
+    left: 631px;
+    position: absolute;
+    top: 1400px;
+    width: 631px;
+}
+
+.frame .pokemon-epis {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 26px;
+    letter-spacing: 1px;
+    line-height: normal;
+    position: absolute;
+    top: 322px;
+    width: 289px;
+}
+
+.frame .text-wrapper-11 {
+    color: #fbfbfb;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 28px;
+    letter-spacing: 1.8px;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
