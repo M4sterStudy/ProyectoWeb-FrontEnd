@@ -1,11 +1,11 @@
 
 import React from 'react';
-import Header from '../../Components/Shared/HeaderInicio.jsx';  
-import Frame from '../../Components/Shared/Footer.jsx';
-import Image2 from '../../Components/Index/CardItem_2.jsx';
-import Card_1 from '../../Components/Index/CardItem-1.jsx';
-import Img4 from '../../Components/Index/CardItem_3.jsx';
-import Nuevosepisodios from '../../Components/Index/CardItem_5.jsx';
+import Header from '../../components/Shared/HeaderInicio.jsx';  
+import Frame from '../../components/Shared/Footer.jsx';
+import Image2 from '../../components/Index/CardItem_2.jsx';
+import Card_1 from '../../components/Index/CardItem-1.jsx';
+import Img4 from '../../components/Index/CardItem_3.jsx';
+import Nuevosepisodios from '../../components/Index/CardItem_5.jsx';
 import './Inicio.css';
 const About = () => {
     return (

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aubrey:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-aubrey: Aubrey;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-lg: 18px;
+  --font-size-sm: 14px;
+  --font-size-29xl: 48px;
+  --font-size-17xl: 36px;
+  --font-size-xl: 20px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --color-gray-100: #fcfcfc;
+  --color-gray-200: #070707;
+  --color-black: #000;
+  --color-gainsboro: #d9d9d9;
+  --color-darkviolet: #bd00ff;
+  --color-darkslategray-100: #302d2d;
+  --color-darkslategray-200: rgba(48, 45, 45, 0.17);
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-xl: 20px;
+  --br-8xs: 5px;
+  --br-mini: 15px;
+}

@@ -1,0 +1,70 @@
+.frame-item {
+  position: absolute;
+  top: 0;
+  left: 11px;
+  border-radius: var(--br-xl);
+  width: 605px;
+  height: 418px;
+  object-fit: cover;
+}
+.frame-inner {
+  position: absolute;
+  top: 259px;
+  left: 0;
+  border-radius: 0 0 var(--br-xl) var(--br-xl);
+  background: linear-gradient(180deg, rgba(7, 7, 7, 0), #070707);
+  width: 629px;
+  height: 160px;
+}
+.shakunetsu-kabaddi- {
+  position: absolute;
+  top: 322px;
+  left: 28px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.05em;
+}
+.hd,
+.hd-icon {
+  position: absolute;
+}
+.hd {
+  top: 9px;
+  left: 27px;
+  letter-spacing: 0.05em;
+}
+.hd-icon {
+  top: 31px;
+  left: 31px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkviolet);
+  width: 88px;
+  height: 45px;
+}
+.subtitulado {
+  position: absolute;
+  top: 9px;
+  left: 30px;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  width: 158px;
+}
+.lengendado {
+  position: absolute;
+  top: 31px;
+  left: 406px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkviolet);
+  width: 193px;
+  height: 45px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 629px;
+  height: 419px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-roboto);
+}
